@@ -6,6 +6,7 @@ Split Ticket 2020 Election TX Latinos Analysis
 ### Weighted (by Population) Least Squares Regression Table
 **R² = 0.466**
 
+
 <table>
   <thead>
     <tr>
@@ -21,100 +22,110 @@ Split Ticket 2020 Election TX Latinos Analysis
   <tbody>
     <tr>
       <td><strong>const</strong></td>
-      <td style="text-align: right;">-0.0096</td>
-      <td style="text-align: right;">0.002</td>
-      <td style="text-align: right;">-6.018</td>
-      <td style="text-align: right;">0</td>
-      <td style="text-align: right;">-0.013</td>
-      <td style="text-align: right;">-0.006</td>
-    </tr>
-    <tr>
-      <td><strong>Sanders Gain</strong></td>
-      <td style="text-align: right;">0.144</td>
-      <td style="text-align: right;">0.003</td>
-      <td style="text-align: right;">47.131</td>
-      <td style="text-align: right;">0</td>
-      <td style="text-align: right;">0.138</td>
-      <td style="text-align: right;">0.15</td>
-    </tr>
-    <tr>
-      <td><strong>Hispanic or Latino</strong></td>
-      <td style="text-align: right;">0.0501</td>
-      <td style="text-align: right;">0.002</td>
-      <td style="text-align: right;">29.27</td>
-      <td style="text-align: right;">0</td>
-      <td style="text-align: right;">0.047</td>
-      <td style="text-align: right;">0.053</td>
-    </tr>
-    <tr>
-      <td><strong>Asian</strong></td>
-      <td style="text-align: right;">0.0159</td>
-      <td style="text-align: right;">0.003</td>
-      <td style="text-align: right;">5.863</td>
-      <td style="text-align: right;">0</td>
-      <td style="text-align: right;">0.011</td>
-      <td style="text-align: right;">0.021</td>
-    </tr>
-    <tr>
-      <td><strong>Black or African American</strong></td>
-      <td style="text-align: right;">0.0042</td>
-      <td style="text-align: right;">0.002</td>
-      <td style="text-align: right;">2.052</td>
-      <td style="text-align: right;">0.04</td>
-      <td style="text-align: right;">0</td>
-      <td style="text-align: right;">0.008</td>
-    </tr>
-    <tr>
-      <td><strong>Median Age</strong></td>
-      <td style="text-align: right;">0.0042</td>
-      <td style="text-align: right;">0</td>
-      <td style="text-align: right;">34.026</td>
-      <td style="text-align: right;">0</td>
-      <td style="text-align: right;">0.004</td>
-      <td style="text-align: right;">0.004</td>
-    </tr>
-    <tr>
-      <td><strong>College Attainment</strong></td>
-      <td style="text-align: right;">0.0012</td>
+      <td style="text-align: right;">-0.0178</td>
       <td style="text-align: right;">0.001</td>
-      <td style="text-align: right;">0.898</td>
-      <td style="text-align: right;">0.003</td>
-      <td style="text-align: right;">-0.001</td>
-      <td style="text-align: right;">0.004</td>
-    </tr>
-    <tr>
-      <td><strong>Median Income</strong></td>
-      <td style="text-align: right;">-0.0003</td>
+      <td style="text-align: right;">-12.087</td>
       <td style="text-align: right;">0</td>
-      <td style="text-align: right;">-1.318</td>
-      <td style="text-align: right;">0.187</td>
-      <td style="text-align: right;">-0.001</td>
-      <td style="text-align: right;">0</td>
+      <td style="text-align: right;">-0.021</td>
+      <td style="text-align: right;">-0.015</td>
     </tr>
     <tr>
       <td><strong>White</strong></td>
-      <td style="text-align: right;">-0.0035</td>
+      <td style="text-align: right;">0.0079</td>
       <td style="text-align: right;">0.002</td>
-      <td style="text-align: right;">-1.994</td>
-      <td style="text-align: right;">0.046</td>
-      <td style="text-align: right;">-0.007</td>
+      <td style="text-align: right;">4.652</td>
       <td style="text-align: right;">0</td>
+      <td style="text-align: right;">0.005</td>
+      <td style="text-align: right;">0.011</td>
     </tr>
     <tr>
-      <td><strong>County Density</strong></td>
-      <td style="text-align: right;">-0.0071</td>
+      <td><strong>Black or African American</strong></td>
+      <td style="text-align: right;">0.0196</td>
+      <td style="text-align: right;">0.002</td>
+      <td style="text-align: right;">9.964</td>
       <td style="text-align: right;">0</td>
-      <td style="text-align: right;">-32.913</td>
+      <td style="text-align: right;">0.016</td>
+      <td style="text-align: right;">0.023</td>
+    </tr>
+    <tr>
+      <td><strong>Asian</strong></td>
+      <td style="text-align: right;">0.0248</td>
+      <td style="text-align: right;">0.003</td>
+      <td style="text-align: right;">9.166</td>
       <td style="text-align: right;">0</td>
-      <td style="text-align: right;">-0.007</td>
-      <td style="text-align: right;">-0.007</td>
+      <td style="text-align: right;">0.020</td>
+      <td style="text-align: right;">0.030</td>
+    </tr>
+    <tr>
+      <td><strong>Hispanic or Latino</strong></td>
+      <td style="text-align: right;">0.0637</td>
+      <td style="text-align: right;">0.002</td>
+      <td style="text-align: right;">38.461</td>
+      <td style="text-align: right;">0</td>
+      <td style="text-align: right;">0.060</td>
+      <td style="text-align: right;">0.067</td>
+    </tr>
+    <tr>
+      <td><strong>Sanders_diff</strong></td>
+      <td style="text-align: right;">0.1457</td>
+      <td style="text-align: right;">0.003</td>
+      <td style="text-align: right;">47.86</td>
+      <td style="text-align: right;">0</td>
+      <td style="text-align: right;">0.14</td>
+      <td style="text-align: right;">0.152</td>
+    </tr>
+    <tr>
+      <td><strong>MedianIncome</strong></td>
+      <td style="text-align: right;">-0.0031</td>
+      <td style="text-align: right;">0.001</td>
+      <td style="text-align: right;">-3.702</td>
+      <td style="text-align: right;">0</td>
+      <td style="text-align: right;">-0.005</td>
+      <td style="text-align: right;">-0.001</td>
+    </tr>
+    <tr>
+      <td><strong>CountyDensity</strong></td>
+      <td style="text-align: right;">-0.0287</td>
+      <td style="text-align: right;">0.001</td>
+      <td style="text-align: right;">-39.511</td>
+      <td style="text-align: right;">0</td>
+      <td style="text-align: right;">-0.030</td>
+      <td style="text-align: right;">-0.027</td>
+    </tr>
+    <tr>
+      <td><strong>MedianAge</strong></td>
+      <td style="text-align: right;">0.0141</td>
+      <td style="text-align: right;">0.001</td>
+      <td style="text-align: right;">22.669</td>
+      <td style="text-align: right;">0</td>
+      <td style="text-align: right;">0.013</td>
+      <td style="text-align: right;">0.015</td>
+    </tr>
+    <tr>
+      <td><strong>College</strong></td>
+      <td style="text-align: right;">0.0105</td>
+      <td style="text-align: right;">0.001</td>
+      <td style="text-align: right;">8.095</td>
+      <td style="text-align: right;">0</td>
+      <td style="text-align: right;">0.008</td>
+      <td style="text-align: right;">0.013</td>
+    </tr>
+    <tr>
+      <td><strong>Total</strong></td>
+      <td style="text-align: right;">1.81E-06</td>
+      <td style="text-align: right;">3.11E-07</td>
+      <td style="text-align: right;">5.814</td>
+      <td style="text-align: right;">0</td>
+      <td style="text-align: right;">1.20E-06</td>
+      <td style="text-align: right;">2.42E-06</td>
     </tr>
   </tbody>
 </table>
 
-The above regression was by the 2020 Census Block Group level, the most granular geography the Census publishes income and education data on. Using the Maup Python packege, Census block-level 2016-2020 Presidential General Election, block-level 2016 Democratic Primary, and precinct-level 2016 Democratic Primary data was aggregated to the Block Group Level. Income, county density, age data was tranformed to standardized 
+The above is the resulting output of a Weighted (by Population) Least-Squares regression predicting Donald Trump Gains (2016-2020) off of a series of demographical and political variables including race, age, income, (4-year) college attainment, county population density, and Bernie Sanders Gains (2016-2020 Dem. Primary). The key takeaway is that Sanders Gain and Latino population proportion were the two strongest predictors of Trump Gains (p<0.0001). Interestingly despite the overwhelming focus on Latinos driving Trump Gains in Texas, Sanders Gains was actually more predictive of Trump Gains than Latino population proportion was. A +10% greater Sanders Gain predicts a +1.5% greater Trump Gain per Census Block Group (BG), while a +10% greater Latino population proportion predicts just +0.6% greater Trump Gain.
 
-I added an interaction term between Latinos and Sanders shift to the original regression, which is computationally just multiplying the two together. In this context, the interaction term tests whether the relationship between Sanders’ gains and Trump’s gains is stronger in areas with large Latino populations. Indeed, Sanders gains were much more predictive of Trump gains in heavily-Latino areas. This new Latino-Sanders Gain interaction term was the strongest variable and its inclusion decreased the predictive power of both Latino population and Sanders’ gain, suggesting combining both variables together predicts with Trump gains.
+
+After this initial regression, I added an interaction term between Latinos and Sanders shift to the original regression, which is computationally just multiplying the two together. In this context, the interaction term tests whether the relationship between Sanders’ gains and Trump’s gains is stronger in areas with large Latino populations. Indeed, Sanders gains were much more predictive of Trump gains in heavily-Latino areas. This new Latino-Sanders Gain interaction term was the strongest variable and its inclusion decreased the predictive power of both Latino population and Sanders’ gain, suggesting combining both variables together predicts with Trump gains.
 
 
 ### Weighted (by Population) Least Squares Regression Table (w/Sanders-Latino Interaction)
@@ -135,104 +146,122 @@ I added an interaction term between Latinos and Sanders shift to the original re
   <tbody>
     <tr>
       <td><strong>const</strong></td>
-      <td style="text-align: right;">-0.0039</td>
-      <td style="text-align: right;">0.002</td>
-      <td style="text-align: right;">-2.596</td>
-      <td style="text-align: right;">0.009</td>
-      <td style="text-align: right;">-0.007</td>
-      <td style="text-align: right;">-0.001</td>
-    </tr>
-    <tr>
-      <td><strong>Latino-Sanders Gain Interaction</strong></td>
-      <td style="text-align: right;">0.4195</td>
-      <td style="text-align: right;">0.01</td>
-      <td style="text-align: right;">42.1</td>
-      <td style="text-align: right;">0</td>
-      <td style="text-align: right;">0.400</td>
-      <td style="text-align: right;">0.439</td>
-    </tr>
-    <tr>
-      <td><strong>Hispanic or Latino</strong></td>
-      <td style="text-align: right;">0.0391</td>
-      <td style="text-align: right;">0.002</td>
-      <td style="text-align: right;">23.698</td>
-      <td style="text-align: right;">0</td>
-      <td style="text-align: right;">0.036</td>
-      <td style="text-align: right;">0.042</td>
-    </tr>
-    <tr>
-      <td><strong>Black or African American</strong></td>
-      <td style="text-align: right;">0.0057</td>
-      <td style="text-align: right;">0.002</td>
-      <td style="text-align: right;">2.932</td>
-      <td style="text-align: right;">0.003</td>
-      <td style="text-align: right;">0.002</td>
-      <td style="text-align: right;">0.009</td>
-    </tr>
-    <tr>
-      <td><strong>Median Age</strong></td>
-      <td style="text-align: right;">0.0036</td>
-      <td style="text-align: right;">0</td>
-      <td style="text-align: right;">30.254</td>
-      <td style="text-align: right;">0</td>
-      <td style="text-align: right;">0.003</td>
-      <td style="text-align: right;">0.004</td>
-    </tr>
-    <tr>
-      <td><strong>College Attainment</strong></td>
-      <td style="text-align: right;">0.0016</td>
+      <td style="text-align: right;">-0.0081</td>
       <td style="text-align: right;">0.001</td>
-      <td style="text-align: right;">1.259</td>
-      <td style="text-align: right;">0.208</td>
-      <td style="text-align: right;">-0.001</td>
-      <td style="text-align: right;">0.004</td>
-    </tr>
-    <tr>
-      <td><strong>Asian</strong></td>
-      <td style="text-align: right;">0.0008</td>
-      <td style="text-align: right;">0.003</td>
-      <td style="text-align: right;">0.309</td>
-      <td style="text-align: right;">0.757</td>
-      <td style="text-align: right;">-0.004</td>
-      <td style="text-align: right;">0.006</td>
-    </tr>
-    <tr>
-      <td><strong>Median Income</strong></td>
-      <td style="text-align: right;">-0.0006</td>
+      <td style="text-align: right;">-5.698</td>
       <td style="text-align: right;">0</td>
-      <td style="text-align: right;">-2.457</td>
-      <td style="text-align: right;">0.014</td>
-      <td style="text-align: right;">-0.001</td>
-      <td style="text-align: right;">0</td>
-    </tr>
-    <tr>
-      <td><strong>County Density</strong></td>
-      <td style="text-align: right;">-0.0074</td>
-      <td style="text-align: right;">0</td>
-      <td style="text-align: right;">-36.192</td>
-      <td style="text-align: right;">0</td>
-      <td style="text-align: right;">-0.008</td>
-      <td style="text-align: right;">-0.007</td>
+      <td style="text-align: right;">-0.011</td>
+      <td style="text-align: right;">-0.005</td>
     </tr>
     <tr>
       <td><strong>White</strong></td>
-      <td style="text-align: right;">-0.0158</td>
+      <td style="text-align: right;">-0.006</td>
       <td style="text-align: right;">0.002</td>
-      <td style="text-align: right;">-9.269</td>
+      <td style="text-align: right;">-3.66</td>
       <td style="text-align: right;">0</td>
-      <td style="text-align: right;">-0.019</td>
-      <td style="text-align: right;">-0.012</td>
+      <td style="text-align: right;">-0.009</td>
+      <td style="text-align: right;">-0.003</td>
     </tr>
     <tr>
-      <td><strong>Sanders Gain</strong></td>
-      <td style="text-align: right;">-0.0324</td>
+      <td><strong>Black or African American</strong></td>
+      <td style="text-align: right;">0.0201</td>
       <td style="text-align: right;">0.002</td>
-      <td style="text-align: right;">-6.354</td>
+      <td style="text-align: right;">10.757</td>
       <td style="text-align: right;">0</td>
-      <td style="text-align: right;">-0.042</td>
-      <td style="text-align: right;">-0.022</td>
+      <td style="text-align: right;">0.016</td>
+      <td style="text-align: right;">0.024</td>
+    </tr>
+    <tr>
+      <td><strong>Asian</strong></td>
+      <td style="text-align: right;">0.0088</td>
+      <td style="text-align: right;">0.003</td>
+      <td style="text-align: right;">3.382</td>
+      <td style="text-align: right;">0.001</td>
+      <td style="text-align: right;">0.004</td>
+      <td style="text-align: right;">0.014</td>
+    </tr>
+    <tr>
+      <td><strong>Hispanic or Latino</strong></td>
+      <td style="text-align: right;">0.0512</td>
+      <td style="text-align: right;">0.002</td>
+      <td style="text-align: right;">32.132</td>
+      <td style="text-align: right;">0</td>
+      <td style="text-align: right;">0.048</td>
+      <td style="text-align: right;">0.054</td>
+    </tr>
+    <tr>
+      <td><strong>Sanders_diff</strong></td>
+      <td style="text-align: right;">-0.0384</td>
+      <td style="text-align: right;">0.005</td>
+      <td style="text-align: right;">-7.571</td>
+      <td style="text-align: right;">0</td>
+      <td style="text-align: right;">-0.048</td>
+      <td style="text-align: right;">-0.028</td>
+    </tr>
+    <tr>
+      <td><strong>Latino_SandersDiff_interaction</strong></td>
+      <td style="text-align: right;">0.438</td>
+      <td style="text-align: right;">0.01</td>
+      <td style="text-align: right;">44.169</td>
+      <td style="text-align: right;">0</td>
+      <td style="text-align: right;">0.419</td>
+      <td style="text-align: right;">0.457</td>
+    </tr>
+    <tr>
+      <td><strong>MedianIncome</strong></td>
+      <td style="text-align: right;">-0.0025</td>
+      <td style="text-align: right;">0.001</td>
+      <td style="text-align: right;">-3.1</td>
+      <td style="text-align: right;">0.002</td>
+      <td style="text-align: right;">-0.004</td>
+      <td style="text-align: right;">-0.001</td>
+    </tr>
+    <tr>
+      <td><strong>CountyDensity</strong></td>
+      <td style="text-align: right;">-0.03</td>
+      <td style="text-align: right;">0.001</td>
+      <td style="text-align: right;">-43.517</td>
+      <td style="text-align: right;">0</td>
+      <td style="text-align: right;">-0.031</td>
+      <td style="text-align: right;">-0.029</td>
+    </tr>
+    <tr>
+      <td><strong>MedianAge</strong></td>
+      <td style="text-align: right;">0.0114</td>
+      <td style="text-align: right;">0.001</td>
+      <td style="text-align: right;">19.204</td>
+      <td style="text-align: right;">0</td>
+      <td style="text-align: right;">0.01</td>
+      <td style="text-align: right;">0.013</td>
+    </tr>
+    <tr>
+      <td><strong>College</strong></td>
+      <td style="text-align: right;">0.0093</td>
+      <td style="text-align: right;">0.001</td>
+      <td style="text-align: right;">7.568</td>
+      <td style="text-align: right;">0</td>
+      <td style="text-align: right;">0.007</td>
+      <td style="text-align: right;">0.012</td>
+    </tr>
+    <tr>
+      <td><strong>Total</strong></td>
+      <td style="text-align: right;">9.35E-07</td>
+      <td style="text-align: right;">2.96E-07</td>
+      <td style="text-align: right;">3.164</td>
+      <td style="text-align: right;">0.002</td>
+      <td style="text-align: right;">3.56E-07</td>
+      <td style="text-align: right;">1.51E-06</td>
     </tr>
   </tbody>
 </table>
 
-One possible explanation for the larger Sanders-Latino interaction coefficient is that squaring the two ≤1.00 terms makes a small magnitude term, prompting the regression to inflate its coefficient value to compensate for the smaller value. To test that explanation, I squared the Latino and Sanders terms from the original regression. The resulting correlation coefficients were much smaller than the Sanders-Latino interaction term (0.0737, 0.2397 < 0.4195), reaffirming the large coefficient reflects a strong predictive value of the interaction term.
+
+One possible explanation for the larger Sanders-Latino interaction coefficient is that squaring the two ≤1.00 terms makes a small magnitude term, prompting the regression to inflate its coefficient value to compensate for the smaller value. To test that explanation, I squared the Latino and Sanders terms from the original regression. The resulting correlation coefficients were much smaller than the Sanders-Latino interaction term (0.0813, 0.2442 < 0.438), reaffirming the large coefficient reflects a strong predictive value of the interaction term.
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Notes: Each instance in the regression was a unique 2020 Census Block Group, the most granular geography the Census publishes income and education data on. Using the Maup Python packege, Census block-level 2016-2020 Presidential General Election, block-level 2016 Democratic Primary, and precinct-level 2016 Democratic Primary data was aggregated to the Block Group Level. To ensure standardized variable magnitudes, Income, County Density, and Median Age were tranformed to align with the percentage format of the race, political, and College Attainment variables (range 0 to 1, or -1 to 1 for Trump Gain or Sanders Gain terms).
+
+There were some missing precinct data from the 2016 Democratic Presidential Primary, but 90% of precincts are included. Importantly, the major metropolitan areas of Texas were included including >99% of the Rio Grande Valley. The bulk of these missing precincts were in random rural, small counties and pockets of Denton County (Dallas-Fort Worth suburbs). This missing data is minor enough to not drastically change the general statistical results.
+
+Full repository with source files and code will be uploaded shortly.
