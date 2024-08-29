@@ -1,5 +1,5 @@
 # tx-2020-election-latinos
-Split Ticket 2020 Election TX Latinos Analysis
+Split Ticket TX 2020 Election Latinos Analysis by Andrew Hong
 
 ## Regression Output
 
