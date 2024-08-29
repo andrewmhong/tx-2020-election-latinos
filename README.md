@@ -112,6 +112,7 @@ Split Ticket 2020 Election TX Latinos Analysis
   </tbody>
 </table>
 
+The above regression was by the 2020 Census Block Group level, the most granular geography the Census publishes income and education data on. Using the Maup Python packege, Census block-level 2016-2020 Presidential General Election, block-level 2016 Democratic Primary, and precinct-level 2016 Democratic Primary data was aggregated to the Block Group Level. Income, county density, age data was tranformed to standardized 
 
 I added an interaction term between Latinos and Sanders shift to the original regression, which is computationally just multiplying the two together. In this context, the interaction term tests whether the relationship between Sanders’ gains and Trump’s gains is stronger in areas with large Latino populations. Indeed, Sanders gains were much more predictive of Trump gains in heavily-Latino areas. This new Latino-Sanders Gain interaction term was the strongest variable and its inclusion decreased the predictive power of both Latino population and Sanders’ gain, suggesting combining both variables together predicts with Trump gains.
 
