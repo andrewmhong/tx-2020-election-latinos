@@ -4,6 +4,7 @@ Split Ticket 2020 Election TX Latinos Analysis
 ## Regression Output
 
 ### Weighted (by Population) Least Squares Regression Table
+**Dep. Variable: Trump Gain**
 **R² = 0.46**
 
 
@@ -120,6 +121,7 @@ After this initial regression, I added an interaction term between Latinos and S
 
 
 ### Weighted (by Population) Least Squares Regression Table (w/Sanders-Latino Interaction)
+**Dep. Variable: Trump Gain**
 **R² = 0.52**
 
 <table>
