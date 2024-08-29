@@ -4,7 +4,7 @@ Split Ticket 2020 Election TX Latinos Analysis
 ## Regression Output
 
 ### Weighted (by Population) Least Squares Regression Table
-**R² = 0.466**
+**R² = 0.46**
 
 
 <table>
@@ -66,7 +66,7 @@ Split Ticket 2020 Election TX Latinos Analysis
       <td style="text-align: right;">0.067</td>
     </tr>
     <tr>
-      <td><strong>Sanders_diff</strong></td>
+      <td><strong>Sanders Gain</strong></td>
       <td style="text-align: right;">0.1457</td>
       <td style="text-align: right;">0.003</td>
       <td style="text-align: right;">47.86</td>
@@ -75,7 +75,7 @@ Split Ticket 2020 Election TX Latinos Analysis
       <td style="text-align: right;">0.152</td>
     </tr>
     <tr>
-      <td><strong>MedianIncome</strong></td>
+      <td><strong>Median Income</strong></td>
       <td style="text-align: right;">-0.0031</td>
       <td style="text-align: right;">0.001</td>
       <td style="text-align: right;">-3.702</td>
@@ -84,7 +84,7 @@ Split Ticket 2020 Election TX Latinos Analysis
       <td style="text-align: right;">-0.001</td>
     </tr>
     <tr>
-      <td><strong>CountyDensity</strong></td>
+      <td><strong>County Pop. Density</strong></td>
       <td style="text-align: right;">-0.0287</td>
       <td style="text-align: right;">0.001</td>
       <td style="text-align: right;">-39.511</td>
@@ -93,7 +93,7 @@ Split Ticket 2020 Election TX Latinos Analysis
       <td style="text-align: right;">-0.027</td>
     </tr>
     <tr>
-      <td><strong>MedianAge</strong></td>
+      <td><strong>Median Age</strong></td>
       <td style="text-align: right;">0.0141</td>
       <td style="text-align: right;">0.001</td>
       <td style="text-align: right;">22.669</td>
@@ -110,15 +110,6 @@ Split Ticket 2020 Election TX Latinos Analysis
       <td style="text-align: right;">0.008</td>
       <td style="text-align: right;">0.013</td>
     </tr>
-    <tr>
-      <td><strong>Total</strong></td>
-      <td style="text-align: right;">1.81E-06</td>
-      <td style="text-align: right;">3.11E-07</td>
-      <td style="text-align: right;">5.814</td>
-      <td style="text-align: right;">0</td>
-      <td style="text-align: right;">1.20E-06</td>
-      <td style="text-align: right;">2.42E-06</td>
-    </tr>
   </tbody>
 </table>
 
@@ -129,7 +120,7 @@ After this initial regression, I added an interaction term between Latinos and S
 
 
 ### Weighted (by Population) Least Squares Regression Table (w/Sanders-Latino Interaction)
-**R² = 0.517**
+**R² = 0.52**
 
 <table>
   <thead>
@@ -190,7 +181,7 @@ After this initial regression, I added an interaction term between Latinos and S
       <td style="text-align: right;">0.054</td>
     </tr>
     <tr>
-      <td><strong>Sanders_diff</strong></td>
+      <td><strong>Sanders Gain</strong></td>
       <td style="text-align: right;">-0.0384</td>
       <td style="text-align: right;">0.005</td>
       <td style="text-align: right;">-7.571</td>
@@ -199,7 +190,7 @@ After this initial regression, I added an interaction term between Latinos and S
       <td style="text-align: right;">-0.028</td>
     </tr>
     <tr>
-      <td><strong>Latino_SandersDiff_interaction</strong></td>
+      <td><strong>Latino-Sanders Gain Interaction</strong></td>
       <td style="text-align: right;">0.438</td>
       <td style="text-align: right;">0.01</td>
       <td style="text-align: right;">44.169</td>
@@ -208,7 +199,7 @@ After this initial regression, I added an interaction term between Latinos and S
       <td style="text-align: right;">0.457</td>
     </tr>
     <tr>
-      <td><strong>MedianIncome</strong></td>
+      <td><strong>Median Income</strong></td>
       <td style="text-align: right;">-0.0025</td>
       <td style="text-align: right;">0.001</td>
       <td style="text-align: right;">-3.1</td>
@@ -217,7 +208,7 @@ After this initial regression, I added an interaction term between Latinos and S
       <td style="text-align: right;">-0.001</td>
     </tr>
     <tr>
-      <td><strong>CountyDensity</strong></td>
+      <td><strong>County Pop. Density</strong></td>
       <td style="text-align: right;">-0.03</td>
       <td style="text-align: right;">0.001</td>
       <td style="text-align: right;">-43.517</td>
@@ -226,7 +217,7 @@ After this initial regression, I added an interaction term between Latinos and S
       <td style="text-align: right;">-0.029</td>
     </tr>
     <tr>
-      <td><strong>MedianAge</strong></td>
+      <td><strong>Median Age</strong></td>
       <td style="text-align: right;">0.0114</td>
       <td style="text-align: right;">0.001</td>
       <td style="text-align: right;">19.204</td>
@@ -235,22 +226,13 @@ After this initial regression, I added an interaction term between Latinos and S
       <td style="text-align: right;">0.013</td>
     </tr>
     <tr>
-      <td><strong>College</strong></td>
+      <td><strong>College Attainment</strong></td>
       <td style="text-align: right;">0.0093</td>
       <td style="text-align: right;">0.001</td>
       <td style="text-align: right;">7.568</td>
       <td style="text-align: right;">0</td>
       <td style="text-align: right;">0.007</td>
       <td style="text-align: right;">0.012</td>
-    </tr>
-    <tr>
-      <td><strong>Total</strong></td>
-      <td style="text-align: right;">9.35E-07</td>
-      <td style="text-align: right;">2.96E-07</td>
-      <td style="text-align: right;">3.164</td>
-      <td style="text-align: right;">0.002</td>
-      <td style="text-align: right;">3.56E-07</td>
-      <td style="text-align: right;">1.51E-06</td>
     </tr>
   </tbody>
 </table>
