@@ -64,3 +64,4 @@ I added an interaction term between Latinos and Sanders shift to the original re
 | **Sanders Gain**                      | -0.0324  | 0.002       | -6.354   | 0       | -0.042     | -0.022     |
 
 One possible explanation for the larger Sanders-Latino interaction coefficient is that squaring the two ≤1.00 terms makes a small magnitude term, prompting the regression to inflate its coefficient value to compensate for the smaller value. To test that explanation, I squared the Latino and Sanders terms from the original regression. The resulting correlation coefficients were much smaller than the Sanders-Latino interaction term (0.0737, 0.2397 < 0.4195), reaffirming the large coefficient reflects a strong predictive value of the interaction term.
+
