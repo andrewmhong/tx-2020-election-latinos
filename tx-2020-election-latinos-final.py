@@ -51,9 +51,9 @@ def clean_colname(col):
 
 # read in census dfs fron folder
 dataframes = []
-for filename in os.listdir('/Users/andrewhong/Desktop/Politics/Ref:Templates/Census/TX_BG_2020'):
+for filename in os.listdir('/TX_BG_2020'):
     if filename.endswith('.csv'):
-        file_path = os.path.join('/Users/andrewhong/Desktop/Politics/Ref:Templates/Census/TX_BG_2020', filename)
+        file_path = os.path.join('/TX_BG_2020', filename)
         df = pd.read_csv(file_path, skiprows=1)
         dataframes.append(df)
 
@@ -106,7 +106,7 @@ df_census['MedianAge'] = clean_and_convert(df_census['MedianAge'])
 ######################################################### load in county density data + join to census data #########################################################
 
 # read in county pop. density df
-df_density = pd.read_csv('/Users/andrewhong/Desktop/Politics/Ref:Templates/Census/Population-Density By County.csv')
+df_density = pd.read_csv('/Population-Density By County.csv')
 df_density = df_density.rename(columns={'GCT_STUB.display-label': 'County',
                                         'Density per square mile of land area': 'CountyDensity',
                                         'GCT_STUB.display-label': 'County'
@@ -133,10 +133,10 @@ df_demographics = df_demographics.groupby('Geography')[numeric_columns].sum().re
 
 # load in 2016 precinct shapefiles, 2020 primary + general result precinct shapefiles
 print('...  loading in result files and shapefiles ...')
-vtd_shapes16 = gpd.read_file('/Users/andrewhong/Desktop/Politics/Data/Consulting/BerniePOC2020/tx_vest_16_SHAPES/tx_vest_16.shp') # just shapefile
+vtd_shapes16 = gpd.read_file('/tx_vest_16_SHAPES/tx_vest_16.shp') # just shapefile
 
 # load in 2016 primary results by precinct (csv)
-vtd_primary_results16_csv = pd.read_csv('/Users/andrewhong/Desktop/Politics/Data/Consulting/BerniePOC2020/tx_2016pri_vtds.csv')
+vtd_primary_results16_csv = pd.read_csv('/tx_2016pri_vtds.csv')
 
 # clean ellis county vtds
 vtd_primary_results16_csv['CNTYVTD'] = vtd_primary_results16_csv['CNTYVTD'].apply(swap_digits)
@@ -148,10 +148,10 @@ vtd_shapes16['PCTKEY'] = vtd_shapes16['PCTKEY'].astype(str).str.zfill(7).str.low
 vtd_primary_results16 = vtd_shapes16.merge(vtd_primary_results16_csv, on='PCTKEY', how='left')
 
 # load in 2016 general result by 2020 census block (shapefile)
-block_results16 = gpd.read_file('/Users/andrewhong/Desktop/Politics/Data/Consulting/BerniePOC2020/tx_2016_gen_2020_blocks/tx_2016_gen_2020_blocks.shp')
+block_results16 = gpd.read_file('tx_2016_gen_2020_blocks/tx_2016_gen_2020_blocks.shp')
 
 # 2020 primary + general results as a shapefile
-vtd_results20 = gpd.read_file('/Users/andrewhong/Desktop/Politics/Data/Consulting/BerniePOC2020/tx_20_vtd_gen_and_pri/tx_20_st_vtd.shp') 
+vtd_results20 = gpd.read_file('/tx_20_vtd_gen_and_pri/tx_20_st_vtd.shp') 
 print("all result files and shapefiles loaded!")
 print()
 
@@ -191,7 +191,7 @@ print()
 print("... merging final dfs ...")
 
 # load in block groups
-bg_shapes = gpd.read_file('/Users/andrewhong/Desktop/Politics/Ref:Templates/Shapefiles/tx_bgs_2020/tl_2020_48_bg.shp')
+bg_shapes = gpd.read_file('/tx_bgs_2020/tl_2020_48_bg.shp')
 
 # change geography id from block --> block group
 block_results['Geography'] = block_results['GEOID20'].str[:-3]
@@ -226,7 +226,7 @@ df['Trump_diff'] = (df['G20PRERTRU_x'] / (df.filter(like='G20PRE').sum(axis=1)))
 
 ######################################################### save final geodataframe #########################################################
 
-df.to_file('/Users/andrewhong/Desktop/Politics/Data/Consulting/BerniePOC2020/tx_cleaned_gdf.shp')
+df.to_file('/tx_cleaned_gdf.shp')
 print("geodataframes loaded")
 
 
